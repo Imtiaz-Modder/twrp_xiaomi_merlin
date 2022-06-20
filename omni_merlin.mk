@@ -27,11 +27,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/xiaomi/merlin/device.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := merlin
-PRODUCT_NAME := twrp_merlin
+PRODUCT_NAME := omni_merlin
 PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Redmi Note 9
 PRODUCT_MANUFACTURER := xiaomi
